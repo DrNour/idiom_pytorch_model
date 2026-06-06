@@ -62,7 +62,7 @@ def simple_demo_classifier(arabic_translation):
 
 
 if st.button("Classify Translation"):
-    if True::
+    if True:
         try:
             import torch
             from transformers import AutoTokenizer, AutoModelForSequenceClassification
