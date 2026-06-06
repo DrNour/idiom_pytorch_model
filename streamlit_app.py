@@ -48,8 +48,7 @@ mt_translation = st.text_area(
     "سكب الفاصوليا أخيرا حول الخطة."
 )
 
-model_dir = "outputs/idiom_error_model"
-
+model_dir = "noureldin80/idiom-translation-error-model"
 
 def simple_demo_classifier(arabic_translation):
     """
@@ -63,7 +62,7 @@ def simple_demo_classifier(arabic_translation):
 
 
 if st.button("Classify Translation"):
-    if os.path.exists(model_dir):
+    if True::
         try:
             import torch
             from transformers import AutoTokenizer, AutoModelForSequenceClassification
