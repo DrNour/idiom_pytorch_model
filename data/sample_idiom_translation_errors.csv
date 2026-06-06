@@ -1,0 +1,33 @@
+source_sentence,idiom,meaning,mt_translation,label
+"He finally spilled the beans about the plan.","spill the beans","reveal a secret","كشف السر أخيرا بشأن الخطة.",acceptable
+"He finally spilled the beans about the plan.","spill the beans","reveal a secret","سكب الفاصوليا أخيرا حول الخطة.",literal_error
+"She kicked the bucket after a long illness.","kick the bucket","die","توفيت بعد مرض طويل.",acceptable
+"She kicked the bucket after a long illness.","kick the bucket","die","ركلت الدلو بعد مرض طويل.",literal_error
+"The manager broke the ice with a joke.","break the ice","reduce tension at the beginning of a social interaction","كسر المدير حاجز الصمت بمزحة.",paraphrase_acceptable
+"The manager broke the ice with a joke.","break the ice","reduce tension at the beginning of a social interaction","كسر المدير الجليد بمزحة.",literal_error
+"This exam is a piece of cake.","piece of cake","very easy task","هذا الامتحان سهل جدا.",acceptable
+"This exam is a piece of cake.","piece of cake","very easy task","هذا الامتحان قطعة من الكعك.",literal_error
+"Do not let the cat out of the bag.","let the cat out of the bag","reveal a secret accidentally","لا تكشف السر.",acceptable
+"Do not let the cat out of the bag.","let the cat out of the bag","reveal a secret accidentally","لا تدع القطة تخرج من الحقيبة.",literal_error
+"After the argument, he gave her the cold shoulder.","give someone the cold shoulder","ignore someone deliberately","بعد الجدال، تجاهلها عمدا.",acceptable
+"After the argument, he gave her the cold shoulder.","give someone the cold shoulder","ignore someone deliberately","بعد الجدال، أعطاها الكتف البارد.",literal_error
+"The new policy added fuel to the fire.","add fuel to the fire","make a bad situation worse","زاد القرار الجديد الوضع سوءا.",acceptable
+"The new policy added fuel to the fire.","add fuel to the fire","make a bad situation worse","أضافت السياسة الجديدة الوقود إلى النار.",literal_error
+"He missed the deadline, but his supervisor turned a blind eye.","turn a blind eye","deliberately ignore something wrong","تجاهل مشرفه الأمر عمدا.",acceptable
+"He missed the deadline, but his supervisor turned a blind eye.","turn a blind eye","deliberately ignore something wrong","أدار مشرفه عينا عمياء.",literal_error
+"We need to think outside the box to solve this problem.","think outside the box","think creatively","علينا التفكير بطريقة مبتكرة لحل هذه المشكلة.",acceptable
+"We need to think outside the box to solve this problem.","think outside the box","think creatively","علينا التفكير خارج الصندوق لحل هذه المشكلة.",paraphrase_acceptable
+"His explanation completely missed the point.","miss the point","fail to understand the main idea","لم يفهم تفسيره الفكرة الأساسية إطلاقا.",acceptable
+"His explanation completely missed the point.","miss the point","fail to understand the main idea","أخطأ تفسيره النقطة تماما.",semantic_error
+"The speaker went off the track during the lecture.","go off track","lose focus or move away from the topic","خرج المتحدث عن الموضوع أثناء المحاضرة.",acceptable
+"The speaker went off the track during the lecture.","go off track","lose focus or move away from the topic","ذهب المتحدث بعيدا عن السكة أثناء المحاضرة.",literal_error
+"The proposal is still up in the air.","up in the air","uncertain or undecided","لا يزال المقترح غير محسوم.",acceptable
+"The proposal is still up in the air.","up in the air","uncertain or undecided","لا يزال المقترح في الهواء.",literal_error
+"He paid an arm and a leg for that car.","cost/pay an arm and a leg","be very expensive","دفع مبلغا كبيرا جدا مقابل تلك السيارة.",acceptable
+"He paid an arm and a leg for that car.","cost/pay an arm and a leg","be very expensive","دفع ذراعا وساقا مقابل تلك السيارة.",literal_error
+"The student was on cloud nine after receiving the award.","on cloud nine","extremely happy","كان الطالب في غاية السعادة بعد استلام الجائزة.",acceptable
+"The student was on cloud nine after receiving the award.","on cloud nine","extremely happy","كان الطالب على السحابة التاسعة بعد استلام الجائزة.",literal_error
+"The teacher asked them to hit the books before the exam.","hit the books","study seriously","طلب منهم المعلم أن يذاكروا بجد قبل الامتحان.",acceptable
+"The teacher asked them to hit the books before the exam.","hit the books","study seriously","طلب منهم المعلم أن يضربوا الكتب قبل الامتحان.",literal_error
+"The company is walking on thin ice after the scandal.","walk on thin ice","be in a risky situation","أصبحت الشركة في موقف حرج بعد الفضيحة.",acceptable
+"The company is walking on thin ice after the scandal.","walk on thin ice","be in a risky situation","تمشي الشركة على جليد رقيق بعد الفضيحة.",literal_error
