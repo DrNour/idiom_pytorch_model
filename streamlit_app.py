@@ -17,15 +17,6 @@ st.write(
     "literal errors, semantic errors, omissions, or cultural errors."
 )
 
-LABELS = [
-    "acceptable",
-    "paraphrase_acceptable",
-    "literal_error",
-    "semantic_error",
-    "omission",
-    "cultural_error"
-]
-
 st.subheader("Try an example")
 
 source_sentence = st.text_area(
@@ -90,7 +81,10 @@ if st.button("Classify Translation"):
                 outputs = model(**inputs)
                 prediction_id = torch.argmax(outputs.logits, dim=1).item()
 
-            predicted_label = LABELS[prediction_id]
+            predicted_label = model.config.id2label.get(
+    prediction_id,
+    model.config.id2label.get(str(prediction_id), str(prediction_id))
+)
             st.success(f"Predicted label: {predicted_label}")
 
         except Exception as e:
